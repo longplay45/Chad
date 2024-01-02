@@ -22,6 +22,9 @@ This is a simple web-ui running local LLMs like Lama2, Mistral, Phi 2 via [**Oll
 
 - Apple Silicon M1+
 - 16 GB RAM
+- python 3.10+
+- [miniconda](https://formulae.brew.sh/cask/miniconda)
+- [**Ollama**](https://ollama.ai)
 
 ## Screenshots
 
@@ -112,4 +115,4 @@ ollama run Chad "What is your name?"
 
 ## License
 
-Copyleft & -right [netzwerkerei@gmail.com](netzwerkerei@gmail.com) 2023.
+Copyleft & -right [netzwerkerei@gmail.com](netzwerkerei@gmail.com) 2024.
