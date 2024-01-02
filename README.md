@@ -55,27 +55,20 @@ ollama pull llama2
 ollama pull bakllama
 ```
 
-### Clone this repository
+### Clone this repository and change to project directory.
 
 ```sh
 git clone https://github.com/netzwerkerei/Chad.git
+cd Chad
 ```
 
-### Create and activate a virtual evironment using conda
+### Create, activate your virtual Chad evironment and install all dependencies via conda
 
 Use the command below to create a virtual environment and install all necessary dependencies.
 
 ```sh
-cd Chad
-conda create -n Chad python=3.10 -y
+conda env create -f environment.yml
 conda activate Chad
-```
-
-### Install dependencies
-
-```sh
-pip install --upgrade pip
-pip install -r requirements.txt
 ```
 
 ### Run the app
