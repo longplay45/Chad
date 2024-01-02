@@ -1,0 +1,10 @@
+faiss-cpu
+langchain
+pandas
+pillow
+psutil
+pymupdf
+python-magic
+requests
+streamlit
+torch

@@ -1,0 +1,11 @@
+# .streamlit/config.toml
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[theme]
+base="light"
+primaryColor="#ffbb00"
+backgroundColor="#dedede"
+font="serif"
