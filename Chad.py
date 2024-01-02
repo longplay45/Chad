@@ -17,13 +17,14 @@ from ollama_helpers import (
     is_mps_supported,
     is_resource_available,
 )
+from config import get_ollama_api
 from vectorstore import count_all_documents_in_vectorstore
 
 # Constants
-OLLAMA_API = "http://localhost:11434"
 USER_AVATAR = '🙋'  # User avatar icon
 AI_AVATAR = '👨'   # AI avatar icon
 AI_CURSOR = '▌'    # Cursor icon used in chat
+OLLAMA_API = get_ollama_api()
 DEFAULT_MODEL, DEFAULT_TEMPERATURE, DEFAULT_SYSTEM_PROMPT = load_conversation_type()
 
 

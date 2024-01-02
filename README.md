@@ -55,7 +55,7 @@ ollama pull llama2
 ollama pull bakllama
 ```
 
-### Clone this repository and change to project directory.
+### Clone this repository and cd into project directory.
 
 ```sh
 git clone https://github.com/netzwerkerei/Chad.git
