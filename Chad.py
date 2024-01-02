@@ -268,7 +268,7 @@ def main():
     else:
         init_session()
 
-        # Select conversation chain
+        # Render sidebar
         with st.sidebar:
             render_header()
             with st.expander("PDFs & Images"):
@@ -277,8 +277,8 @@ def main():
                 model_name, gpu_on = render_settings()
             with st.expander("System Info"):
                 render_system_info()
-            #render_copyright()
 
+        # Select conversation chain
         conversation = select_chain(model_name, gpu_on)
 
         # Display chat messages from history on app rerun
