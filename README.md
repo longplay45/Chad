@@ -4,7 +4,7 @@ _***Hi, my name is Chad. You can ask me anything about the world, programming, y
 
 ![Screenshot of Chad](data/screenshot_002.png)
 
-This is a simple web-ui running local LLMs like Lama2, Mistral, Phi 2 via [**Ollama**](https://ollama.ai) on your local machine. It is written in python using the fantastic [**Ollama**](https://ollama.ai) backend with [**LangChain**](https://www.langchain.com) and [**Streamlit**](https://streamlit.io) for the WebUI.
+This is a simple web-ui running local LLMs like Lama2, Mistral, etc. via [**Ollama**](https://ollama.ai) on your local machine. It is written in python using the fantastic [**Ollama**](https://ollama.ai) backend with [**LangChain**](https://www.langchain.com) and [**Streamlit**](https://streamlit.io) for the WebUI.
 
 ## Features
 
