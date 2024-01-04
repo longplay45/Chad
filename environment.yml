@@ -109,4 +109,4 @@ dependencies:
       - yarg==0.1.9
       - yarl==1.9.4
       - zipp==3.17.0
-
+prefix: /Users/i/miniconda3/envs/Chad
